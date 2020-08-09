@@ -1,0 +1,248 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{cad476f4-3251-44c0-9f7e-b0155203dffc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent">
+      <UniqueIdentifier>{d37f7aad-d225-4dea-85b2-7d6ed1ad3c3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent\Enums">
+      <UniqueIdentifier>{3e4feab9-d1d2-4651-aaa8-cf6401c88966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent\Models">
+      <UniqueIdentifier>{37f5a358-0171-472f-8343-2238e4172af7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent\Services">
+      <UniqueIdentifier>{36ec8375-4151-4fe7-807f-8a383aae8b12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent\Styles">
+      <UniqueIdentifier>{ec3b22fb-28b7-437a-9a43-287108c4cd9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent\ViewModels">
+      <UniqueIdentifier>{4dce9b68-f666-45c1-8ad2-6fb6c3cc26ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\MathComponent">
+      <UniqueIdentifier>{e1e7e6b8-07da-4240-bc50-c6dea3149898}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\MathComponent\Enums">
+      <UniqueIdentifier>{dc7cedc1-86ca-4657-a150-3a5a2f6f7ed8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\MathComponent\Models">
+      <UniqueIdentifier>{73a90838-5abc-4642-b35e-d45e0d126147}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\MathComponent\Models\GeometryModels">
+      <UniqueIdentifier>{b7dadccb-d612-46c7-8315-f105382b047f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\MathComponent\Services">
+      <UniqueIdentifier>{b4ce3359-badb-4ccb-8a97-b922199a5b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\WindowComponent">
+      <UniqueIdentifier>{9bce7e96-e704-4d5e-980d-655c5115422a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\WindowComponent\View">
+      <UniqueIdentifier>{d1fea7b7-f29d-454b-9afe-7c89c1399a04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\GeneralComponent">
+      <UniqueIdentifier>{34ee8fcf-6e1c-44dd-a8ff-c86e8a12dc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\LabyrinthComponent\Settings">
+      <UniqueIdentifier>{ee3a71f5-7ca8-4ab0-b700-5630c0e58a62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App\GeneralComponent\Services">
+      <UniqueIdentifier>{df3abc31-feaa-4cff-b8ee-03155fbcb26b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Labyrinth.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="Labyrinth.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="App\WindowComponent\View\Window.cpp">
+      <Filter>App\WindowComponent\View</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Models\Dimensions.cpp">
+      <Filter>App\MathComponent\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Models\GeometryModels\Border.cpp">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Models\GeometryModels\Line.cpp">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Models\GeometryModels\Point.cpp">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Models\GeometryModels\Rectangle.cpp">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Services\AngleManager.cpp">
+      <Filter>App\MathComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Services\RandomManager.cpp">
+      <Filter>App\MathComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\MathComponent\Services\TransformationManager.cpp">
+      <Filter>App\MathComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Models\Block.cpp">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Models\BlockSlot.cpp">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Models\Labyrinth.cpp">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Models\Route.cpp">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Styles\BlockStyle.cpp">
+      <Filter>App\LabyrinthComponent\Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Services\BlockPartManager.cpp">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Services\LabyrinthGenerator.cpp">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Services\LabyrinthRenderer.cpp">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Services\TransformationManager.cpp">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\ViewModels\Block.cpp">
+      <Filter>App\LabyrinthComponent\ViewModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\ViewModels\Route.cpp">
+      <Filter>App\LabyrinthComponent\ViewModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\ViewModels\Labyrinth.cpp">
+      <Filter>App\LabyrinthComponent\ViewModels</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Styles\LabyrinthRenderingStyle.cpp">
+      <Filter>App\LabyrinthComponent\Styles</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Services\GeneralSelectorConverter.cpp">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Services\RectangleCreationService.cpp">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClCompile>
+    <ClCompile Include="App\LabyrinthComponent\Settings\LabyrinthGeneratorSettings.cpp">
+      <Filter>App\LabyrinthComponent\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="App\GeneralComponent\Services\RecursionDepthHandler.cpp">
+      <Filter>App\GeneralComponent\Services</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="App\WindowComponent\View\Window.h">
+      <Filter>App\WindowComponent\View</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Enums\RightAngleSelector.h">
+      <Filter>App\MathComponent\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Models\Dimensions.h">
+      <Filter>App\MathComponent\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Models\GeometryModels\Border.h">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Models\GeometryModels\Line.h">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Models\GeometryModels\Point.h">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Models\GeometryModels\Rectangle.h">
+      <Filter>App\MathComponent\Models\GeometryModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Services\AngleManager.h">
+      <Filter>App\MathComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Services\RandomManager.h">
+      <Filter>App\MathComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\MathComponent\Services\TransformationManager.h">
+      <Filter>App\MathComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Enums\ActionSelector.h">
+      <Filter>App\LabyrinthComponent\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Enums\BlockNeighbourSelector.h">
+      <Filter>App\LabyrinthComponent\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Enums\BlockPartSelector.h">
+      <Filter>App\LabyrinthComponent\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Enums\RouteGroupSelector.h">
+      <Filter>App\LabyrinthComponent\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Models\Block.h">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Models\BlockSlot.h">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Models\Labyrinth.h">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Models\Route.h">
+      <Filter>App\LabyrinthComponent\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Styles\BlockStyle.h">
+      <Filter>App\LabyrinthComponent\Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Services\BlockPartManager.h">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Services\LabyrinthGenerator.h">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Services\LabyrinthRenderer.h">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Services\TransformationManager.h">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\ViewModels\Block.h">
+      <Filter>App\LabyrinthComponent\ViewModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\ViewModels\Route.h">
+      <Filter>App\LabyrinthComponent\ViewModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\ViewModels\Labyrinth.h">
+      <Filter>App\LabyrinthComponent\ViewModels</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Styles\LabyrinthRenderingStyle.h">
+      <Filter>App\LabyrinthComponent\Styles</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Services\GeneralSelectorConverter.h">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Services\RectangleCreationService.h">
+      <Filter>App\LabyrinthComponent\Services</Filter>
+    </ClInclude>
+    <ClInclude Include="App\LabyrinthComponent\Settings\LabyrinthGeneratorSettings.h">
+      <Filter>App\LabyrinthComponent\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="App\GeneralComponent\Services\RecursionDepthHandler.h">
+      <Filter>App\GeneralComponent\Services</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
